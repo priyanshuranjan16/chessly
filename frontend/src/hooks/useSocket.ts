@@ -1,7 +1,8 @@
 import  { useEffect, useState } from 'react'
 // import { WebSocket } from 'vite';
 
-const WS_URL  = "ws://localhost:8080"
+// const WS_URL  = "ws://localhost:8080"
+const WS_URL  = "https://chessly-1-ljxe.onrender.com"
 
 const useSocket = () => {
     const [socket, setSocket] = useState<WebSocket | null>(null);
