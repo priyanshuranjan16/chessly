@@ -51,7 +51,7 @@ import { MOVE } from "../screens/Game";
                             })
                         }
                     }
-                    }  key={j} className= {`w-16 h-16 ${(i+j)%2 === 0 ? 'bg-green-600' : 'bg-white'}`}>
+                    }  key={j} className= {`w-16 h-16 ${(i+j)%2 === 0 ? 'bg-white' : 'bg-green-600'}`}>
                        <div className="w-full h-full flex justify-center">
                             <div className="h-full justify-center flex flex-col">
                                 {square ? <img className="w-4" src = {`/${square?.color === "b" ? square?.type : `${square?.type?.toUpperCase()} copy`}.png`} /> : null}
